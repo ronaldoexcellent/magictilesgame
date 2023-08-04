@@ -1,0 +1,59 @@
+/* Styles */
+/* Import All Your Stylesheets First */
+/* You can add variables to :root */
+
+:root {
+    --f-index: 0;
+    --full: 100%;
+    --glue: fixed;
+    --dB: block;
+    --abs: absolute;
+}
+
+application {
+    width: var(--full);
+    height: var(--full);
+    position: var(--glue);
+    top: var(--f-index);
+    left: 0;
+} layout {
+    width: var(--full);
+    height: var(--full);
+    position: var(--abs);
+    top: var(--f-index);
+    left: var(--f-index);
+} 
+
+header {
+    background: white;
+    color: black;
+    width: 100%;
+} #speed {
+    float: left;
+} #time {
+    font-style: italic;
+} #score {
+    float: right;
+}
+
+#game {
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+} #game div {
+    width: 33.3%;
+    height: 100%;
+    background: black;
+}
+
+dialog {
+    position: absolute;
+    left: 120px;
+    top: 0;
+    width: 760px;
+    height: 620px;
+}

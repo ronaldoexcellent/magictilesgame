@@ -1,0 +1,35 @@
+</_Code JS Version 1>
+</_This style of commenting is meant only for text, do not use it to store HTML code.>
+
+<!DOCTYPE html>
+<application name="Magic Tiles" author="Ronaldo Excellent" logo="" theme="purple" mode="">
+  <data>
+    <meta charset="UTF-8" />
+    <meta-name viewport="width=device-width, initial-scale=1">
+    <meta-http-equiv>
+  </data>
+
+  <layout>
+    <header align="center">
+      <h3 js>app.name</h3>
+      <span id="speed">Speed: x1</span>
+      <span id="time">Time: 0:00:0</span>
+      <span id="score">Score: 0</span>
+      <!--<span js>{app.time()}</span>-->
+    </header>
+    <section id="game">
+      <div id="d1"></div>
+      <div id="d2"></div>
+      <div id="d3"></div>
+    </section>
+    <dialog id="menu">
+      <button>
+        New Game
+      </button>
+    </dialog>
+  </layout>
+
+  <engine>
+    <script src="js/components/codejs.cjs"></script>
+  </engine>
+</application>
